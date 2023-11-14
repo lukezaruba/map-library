@@ -3,8 +3,8 @@ import { Container, Button, Grid, Paper } from "@mui/material";
 
 const websites = [
   {
-    name: "TCMA Land Use, 1958",
-    url: "https://umn.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=0565ed7e8c674f519b386e43ceeedac7",
+    name: "Historical TCMA Land Use",
+    url: "https://storymaps.arcgis.com/stories/433ade03ef65457fb1fb6e9febde8e5e",
   },
   { name: "Historical Aerial Photos", url: "https://apps.lib.umn.edu/mhapo/" },
   {
@@ -12,8 +12,8 @@ const websites = [
     url: "https://apps.lib.umn.edu/campushistory/",
   },
   {
-    name: "Purple Map",
-    url: "https://umn.maps.arcgis.com/apps/MapSeries/index.html?appid=64891cc29420495ebb16fe18267f2acf",
+    name: "Greenspace, White Space",
+    url: "https://storymaps.arcgis.com/stories/f87a6cbf5d3b4a9183ff92cccbaca20a",
   },
 ];
 
