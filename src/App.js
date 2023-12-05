@@ -33,8 +33,14 @@ const App = () => {
 
   return (
     <Container
-      maxWidth="xl"
-      style={{ height: "100vh", overflow: "hidden", padding: 0, margin: 0 }}
+      maxWidth="false"
+      style={{
+        height: "100vh",
+        width: "100vw",
+        overflow: "hidden",
+        padding: 0,
+        margin: 0,
+      }}
     >
       <Grid container style={{ height: "100%" }}>
         <Grid
@@ -42,6 +48,7 @@ const App = () => {
           xs={2}
           style={{
             height: "100%",
+            width: "100%",
             overflow: "hidden",
             display: "flex",
             flexDirection: "column",
@@ -51,6 +58,7 @@ const App = () => {
             style={{
               padding: "16px",
               height: "100%",
+              width: "100%",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
@@ -77,7 +85,11 @@ const App = () => {
             ))}
           </Paper>
         </Grid>
-        <Grid item xs={10} style={{ height: "100%", overflow: "hidden" }}>
+        <Grid
+          item
+          xs={10}
+          style={{ height: "100%", width: "100vw", overflow: "hidden" }}
+        >
           <iframe
             title="Website Viewer"
             src={selectedWebsite.url}
